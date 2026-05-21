@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Edison Tam Lawyers</title>
+<meta name="description" content="Get in touch with Edison Tam Lawyers — Friendship House, 20 Putney Way, Manukau. Phone, email, or send an enquiry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..900,30..100;1,9..144,200..900,30..100&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=5">
+</head>
+<body>
+
+<div class="runner">
+  <div class="runner-inner">
+    <div class="runner-left">Edison Tam Lawyers — Counsel</div>
+    <div class="runner-mid"><span>Manukau</span><span>Auckland</span><span>Aotearoa New Zealand</span></div>
+    <div class="runner-right" data-date>—</div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="/" class="brand">
+      <img src="/images/emblem.png" alt="" class="brand-mark">
+      <span class="brand-words">
+        <span class="brand-name">Edison Tam <em>Lawyers</em></span>
+        <span class="brand-sub">Established Counsel · South Auckland</span>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="/">Index</a>
+      <a href="/about/">Counsel</a>
+      <a href="/services/">Practice</a>
+      <a href="/testimonials/">Testimony</a>
+      <a href="/contact/" class="active">Contact</a>
+    </nav>
+    <div style="display:flex; gap:0.6rem; align-items:center;">
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">≡</button>
+      <a href="#enquiry" class="cta-call">Open a Matter ↗</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="file reveal">File <b>№ 005</b><br>Contact</div>
+  <h1 class="reveal delay-1">
+    Get in touch.<br>
+    <em>Tell us about</em><br>
+    your matter.
+  </h1>
+</section>
+
+<section class="page-intro">
+  <div class="label reveal">— Direct</div>
+  <p class="reveal delay-1">
+    Whatever your concern — a visa application, an ACC claim, a workplace dispute, or a matter you need to bring to Court — we're ready to answer your questions. Send a note below, or reach us directly.
+  </p>
+</section>
+
+<section class="contact-body">
+
+  <aside class="contact-info reveal">
+
+    <div class="block">
+      <div class="label"><span class="num">§ I</span> Our Team</div>
+      <div class="name">Mike Edison</div>
+      <div class="role">Partner — Dispute Resolution, ACC</div>
+      <p><a href="tel:02203694261">022 036 9426</a></p>
+      <p><a href="mailto:mike@edisontam.co.nz">mike@edisontam.co.nz</a></p>
+    </div>
+
+    <div class="block">
+      <div class="name">Jack Tam</div>
+      <div class="role">Partner — Dispute Resolution, Immigration</div>
+      <p><a href="tel:0277336476">027 733 6476</a></p>
+      <p><a href="mailto:jack@edisontam.co.nz">jack@edisontam.co.nz</a></p>
+    </div>
+
+    <div class="block">
+      <div class="name">Sameer Rai</div>
+      <div class="role">Associate — Immigration, Business</div>
+      <p><a href="tel:02201255285">022 012 5285</a></p>
+      <p><a href="mailto:sameer@edisontam.co.nz">sameer@edisontam.co.nz</a></p>
+    </div>
+
+    <div class="block">
+      <div class="label"><span class="num">§ II</span> Chambers</div>
+      <p class="addr">
+        Friendship House<br>
+        He Whare Tangata<br>
+        20 Putney Way<br>
+        PO Box 97647<br>
+        Manukau, Auckland 2241
+      </p>
+      <a class="directions" href="https://www.google.com/maps/dir/?api=1&destination=Edison+Tam+Lawyers,+20+Putney+Way,+Manukau,+Auckland" target="_blank" rel="noopener">Get directions ↗</a>
+    </div>
+
+  </aside>
+
+  <div class="contact-form-wrap reveal delay-1" id="enquiry">
+    <div class="label"><span class="num">§ III</span> Send an Enquiry</div>
+    <h2>Tell us about <em>your matter.</em></h2>
+    <p>Briefly describe what you're dealing with. We'll get back to you within one working day to set up a call.</p>
+
+    <form name="enquiry" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="cform" id="enquiry-form">
+      <input type="hidden" name="form-name" value="enquiry">
+      <p class="honey"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+
+      <div class="row">
+        <div class="field">
+          <label for="fname">First name</label>
+          <input type="text" id="fname" name="first-name" required autocomplete="given-name">
+        </div>
+        <div class="field">
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" name="last-name" required autocomplete="family-name">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="area">Area of enquiry</label>
+        <select id="area" name="area-of-enquiry" required>
+          <option value="">Select a practice area…</option>
+          <option>Accident Compensation (ACC)</option>
+          <option>Immigration &amp; Citizenship</option>
+          <option>Commercial &amp; Insolvency</option>
+          <option>Employment Law</option>
+          <option>Business Advisory</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" required placeholder="Please briefly describe your matter…"></textarea>
+      </div>
+
+      <button type="submit" class="submit">Send enquiry <span class="arrow">↗</span></button>
+    </form>
+
+    <div class="form-success" id="form-success">
+      <div class="lab">§ Filed</div>
+      <p>Thank you — your enquiry has been received. We'll be in touch within one working day.</p>
+    </div>
+  </div>
+
+</section>
+
+<section class="map-wrap">
+  <iframe
+    src="https://www.google.com/maps?q=Edison%20Tam%20Lawyers%2C%2020%20Putney%20Way%2C%20Manukau%2C%20Auckland&output=embed"
+    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    title="Edison Tam Lawyers — Friendship House map"></iframe>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-head">
+      <div class="footer-mark">Edison Tam <em>Lawyers.</em></div>
+      <div class="footer-tag"><span>§</span> Counsel for those whose voices need to be heard.<br>Manukau · Auckland · Aotearoa.</div>
+    </div>
+    <div class="footer-grid">
+      <div class="footer-col"><h3>Partner</h3><div class="name">Mike Edison</div><div class="role">Partner — Dispute Resolution, ACC</div><p><a href="tel:02203694261">022 036 9426</a></p><p><a href="mailto:mike@edisontam.co.nz">mike@edisontam.co.nz</a></p></div>
+      <div class="footer-col"><h3>Partner</h3><div class="name">Jack Tam</div><div class="role">Partner — Dispute Resolution, Immigration</div><p><a href="tel:0277336476">027 733 6476</a></p><p><a href="mailto:jack@edisontam.co.nz">jack@edisontam.co.nz</a></p></div>
+      <div class="footer-col"><h3>Associate</h3><div class="name">Sameer Rai</div><div class="role">Associate — Immigration, Business</div><p><a href="tel:02201255285">022 012 5285</a></p><p><a href="mailto:sameer@edisontam.co.nz">sameer@edisontam.co.nz</a></p></div>
+      <div class="footer-col"><h3>Chambers</h3><div class="name">Friendship House</div><div class="role">He Whare Tangata</div><p>20 Putney Way<br>PO Box 97647<br>Manukau, Auckland 2241</p><a class="directions" href="https://www.google.com/maps/dir/?api=1&destination=Edison+Tam+Lawyers,+20+Putney+Way,+Manukau,+Auckland" target="_blank" rel="noopener">Get directions ↗</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Edison Tam Lawyers</span>
+      <span>Counsel · Established Practice</span>
+      <span>Filed under: Aotearoa</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
